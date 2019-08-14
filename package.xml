@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Search_Manipulation</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension allows you to sort the products on the basis of product rating in the product list page</summary>
+    <description>The Products in the product list page are sorted on the basis of product rating assigned to the product. We can assign product rating for each product from the Magento admin panel. Or we can add default product rating for all the products through Magento admin panel. Using this extension customer can track the best products in their search criteria. </description>
+    <notes>This extension supports sort the products on the basis of product rating in the product list page. We can set all the products to default rating. We can add our own rating on manage product page on Magento admin panel.&#xD;
+&#xD;
+The search in the product list page depends on the product rating assigned to the product. The priority of the result is New, Best, Better, Good and Default.</notes>
+    <authors><author><name>Exinent LLC</name><user>Developer</user><email>developer@exinent.com</email></author></authors>
+    <date>2015-02-19</date>
+    <time>10:51:59</time>
+    <contents><target name="magecommunity"><dir name="Exinent"><dir name="Productattrupdate"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Form"><file name="Productattrupdate.php" hash="0adfb25cecfcc56da4ae4f300faff4fa"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="0ebef6f305203d2a11bedbfccb8b0516"/></dir><dir name="Model"><file name="Observer.php" hash="ba7dd68505426a285632aaf2ffbc6168"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="UpdateController.php" hash="0c22d9570511c13b0b49b901a1b2e3d7"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="66d3238c8e285afa3743c4d64e2629b8"/><file name="config.xml" hash="75028a05e4b5f84c3ad0b1bdf3f83603"/><file name="system.xml" hash="facf43a374d3c78a27eabfb8944c870c"/></dir><dir name="sql"><dir name="exinent_search_setup"><file name="install-1.0.0.php" hash="1a4def943164dcbb44fe1b65c30f994d"/><file name="upgrade-1.0.0-1.0.1.php" hash="a883d7b50aa1100863336b4fa74cc440"/><file name="upgrade-1.1.0-1.1.1.php" hash="74418a4185b1fee572f72661053ca45c"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="productattrupdate"><dir name="system"><dir name="config"><file name="button.phtml" hash="bfecb8625ebac406f5ab83fdc29ae310"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Exinent_Productattrupdate.xml" hash="ea8d9d5a373785c77914c51ff4f65412"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
