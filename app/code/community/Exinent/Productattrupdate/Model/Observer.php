@@ -22,10 +22,7 @@ class Exinent_Productattrupdate_Model_Observer {
 
                 $productObject->setProductRating($attributeLabel);
             }
-        } elseif ($productRatingLabel == null && $productObject->getRatingPriority() == null && $ratingCategoryLabel == 'Default') {
-            $defaultAttributeLable = $this->getAttributeLableId('60000');
-            $productObject->setProductRating($defaultAttributeLable);
-        } else {
+        } elseif ($productRatingLabel == null) {
             $defaultAttributeLable = $this->getAttributeLableId('60000');
             $productObject->setProductRating($defaultAttributeLable);
         }
