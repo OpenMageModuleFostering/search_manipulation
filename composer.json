@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Search_Manipulation",
+    "name": "OpenMageModuleFostering\/Search_Manipulation",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Enables product sorting based on merchant rating in category listing and search results for the customers.",
     "authors": [
-    {
-        "name": "Dev",
-        "email": "developer@exinent.com"
-    }
-],
+        {
+            "name": "Dev",
+            "email": "developer@exinent.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
